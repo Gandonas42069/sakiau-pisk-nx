@@ -2,39 +2,36 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Error</title>
+<title>Connection Error</title>
 <style>
 body {
   margin: 0;
+  background: #f8f9fa;
   font-family: Arial, sans-serif;
-  background: #fff;
-  color: #202124;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #3c4043;
 }
-.container {
-  max-width: 600px;
-  margin: 120px auto;
-  padding: 0 20px;
+.box {
+  text-align: center;
+  max-width: 500px;
 }
-.code {
-  font-size: 20px;
-  color: #d93025;
-  margin-bottom: 8px;
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
 }
-.title {
-  font-size: 18px;
-  margin-bottom: 6px;
-}
-.text {
+p {
   font-size: 14px;
   color: #5f6368;
 }
 </style>
 </head>
 <body>
-  <div class="container">
-    <div class="code">Error</div>
-    <div class="title">Request failed</div>
-    <div class="text">The server returned an invalid response.</div>
+  <div class="box">
+    <h1>Connection failed</h1>
+    <p>Unable to reach the requested resource.</p>
   </div>
 </body>
 </html>
