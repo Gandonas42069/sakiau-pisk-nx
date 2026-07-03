@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>404 Not Found</title>
+<style>
+body{
+    font-family:Arial,sans-serif;
+    margin:80px;
+}
+h1{
+    font-size:50px;
+}
+hr{
+    margin:25px 0;
+}
+</style>
+</head>
+<body>
+
+<h1>404</h1>
+<p>The requested page could not be found.</p>
+
+<hr>
+
+<small>nginx</small>
+
+</body>
+</html>
